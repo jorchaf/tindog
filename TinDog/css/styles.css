@@ -1,0 +1,309 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;    
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+
+h1{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 2.5rem;
+    color: white;
+}
+
+h2{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 1.7rem;
+    text-align: center;    
+}
+
+h3{
+font-weight: bold;
+font-size: 1.3rem;
+padding-top: 10px;
+}
+
+
+
+
+#title{
+    background-color: #FF4C68; 
+    padding-left: 200px;   
+    
+    /* z-index: 1; */   
+   
+}
+
+.topcontainer{
+/* background-color: #FF4C68; */
+vertical-align: middle;
+height: 200px;
+float: left;
+width: 400px;
+
+}
+
+.iphone{
+transform: rotate(25deg);
+height: 300px;
+padding-left: 200px;
+
+/* position: relative;
+z-index: -1; */
+
+}
+
+/* #title, #features{
+    position: relative;
+} */
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    padding: 20px;
+    color: white;
+    text-decoration: none;   
+}
+
+.navbar-collapse{
+    font-family: 'Crimson Text', serif;
+    font-size: 0.85rem;
+    color: white;
+    text-decoration: none;
+    padding-left: 500px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.btnA {
+    background-color: #343A40; 
+    border: solid #343A40 1px; 
+    color: white; 
+   padding: 5px 5px; 
+    font-size: 16px; 
+    cursor: pointer;  
+  
+    
+  }
+
+  .btnGP{
+      border: none;
+      padding: 5px 5px;
+    
+      /* fill: none;  */
+  }
+
+
+
+
+.pet{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    height: 64px;
+    /* align-content: center; */
+  
+     
+}
+
+.dogProfile {
+    border-radius: 50%;
+    height: 70px;
+    /* width: 70px; */
+    text-align: left;
+    padding-right: 20px;
+  
+    
+    /* float: left;*/
+    }
+
+
+#features{
+padding-top: 45px;
+height: 300px;
+/* z-index: 3; */
+
+
+}
+
+.feature{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+    }
+    
+
+.advantages{
+    width: 15%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 8px;
+    max-height: 300px;
+    
+    font-family: 'Crimson Text', serif;
+
+}
+    
+    /* padding-top: 50px; */
+
+
+#testimonials{
+    background-color: #EF8172;
+    color: white;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+
+#press{
+    background-color: #EF8172;
+    width: 100%;
+   
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 200px;
+    padding-right: 100px;
+  
+  
+
+}
+
+.imgagePress{
+    
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imgPress{
+    width: 20%;
+    height: 20%;
+    padding: 10px;
+}
+
+#pricing{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.plans{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+
+h6{
+
+    font-size: 0.85rem;
+    color:#8a8a8a;
+}
+
+
+.label{
+background-color: #f2f2f2;
+font-size: 1.1em;
+font-weight: bold;
+font-family: 'Crimson Text', serif;
+padding: 6px 10px 15px 10px ;
+border-bottom: solid 1px #e0e0e0;
+
+}
+.prix{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 400px;
+    padding: 70px;
+
+}
+
+.price{
+    width: 20%;
+    height: 260px;
+    border: solid 1px #e0e0e0;
+ }
+
+ .blsignup{
+    background-color: #343A40; 
+    border: solid #343A40 1px; 
+    color: white; 
+    font-size: 16px; 
+    cursor: pointer;  
+    padding: 8px 100px;
+    border-radius: 4px;
+    font-size: 1rem;
+ }
+
+ .whsignup{
+    background-color: #ffffff; 
+    border: solid #343A40 1px; 
+    color: #343A40; 
+    font-size: 16px; 
+    cursor: pointer;  
+    padding: 8px 100px;
+    border-radius: 4px;
+    font-size: 1rem;
+ }
+
+#cta{
+    
+    background-color: #FF4C68;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+ 
+    
+    
+
+    
+}
+.truelove{
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+    align-items: center;
+    
+    
+
+}
+
+#footer{
+
+    height: 100px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    color: #434343;
+
+}
